@@ -2,4 +2,4 @@
 
 set -e
 
-docker run docker-mysql-sync --env-file .env
+docker run --env-file .env docker-mysql-sync
